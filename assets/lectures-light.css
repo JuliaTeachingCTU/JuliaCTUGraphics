@@ -1,9 +1,9 @@
 /* Exercise*/
-.admonition.is-exercise {
+.admonition.is-category-exercise {
   background-color: #9beeb8;
   border-color: #22c35b; }
 
-.admonition.is-exercise > .admonition-header {
+.admonition.is-category-exercise > .admonition-header {
   background-color: #22c35b;
   color: #fff;
 }
@@ -34,21 +34,21 @@
 }
 
 /* Theorem*/
-.admonition.is-theorem {
+.admonition.is-category-theorem {
   background-color: #f5b7b1;
   border-color: #e74c3c; }
 
-.admonition.is-theorem > .admonition-header {
+.admonition.is-category-theorem > .admonition-header {
   background-color: #e74c3c;
   color: #fff;
 }
 
 /* Homework class */
-.admonition.is-homework {
+.admonition.is-category-homework {
   background-color: #d7bde2;
   border-color: #8e44ad; }
 
-.admonition.is-homework > .admonition-header {
+.admonition.is-category-homework > .admonition-header {
   background-color: #8e44ad;
   color: #fff;
 }
