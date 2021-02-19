@@ -1,0 +1,54 @@
+/* Exercise*/
+.admonition.is-exercise {
+  background-color: #9beeb8;
+  border-color: #22c35b; }
+
+.admonition.is-exercise > .admonition-header {
+  background-color: #22c35b;
+  color: #fff;
+}
+
+/* Solution*/
+.solution-header {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    background-color: #ff9933;
+    border: 1px solid #ff9933;
+    color: #FFFFFF;
+    align-items: center;
+    font-weight: 700;
+    justify-content: space-between;
+    line-height: 1.25;
+    padding: 0.75em;
+    position: relative;
+    cursor: pointer;
+}
+
+.solution-body {
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    background-color: #ffCC99;
+    border: 1px solid #ff9933;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Theorem*/
+.admonition.is-theorem {
+  background-color: #f5b7b1;
+  border-color: #e74c3c; }
+
+.admonition.is-theorem > .admonition-header {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Homework class */
+.admonition.is-homework {
+  background-color: #d7bde2;
+  border-color: #8e44ad; }
+
+.admonition.is-homework > .admonition-header {
+  background-color: #8e44ad;
+  color: #fff;
+}
