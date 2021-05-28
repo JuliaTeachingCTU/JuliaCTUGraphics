@@ -1,7 +1,8 @@
 /* Exercise*/
 html.theme--documenter-dark .admonition.is-category-exercise {
   background-color: #282f2f;
-  border-color: #008438; }
+  border-color: #008438;
+}
 
 html.theme--documenter-dark .admonition.is-category-exercise > .admonition-header {
   background-color: #008438;
@@ -36,7 +37,8 @@ html.theme--documenter-dark .solution-body {
 /* Theorem*/
 html.theme--documenter-dark .admonition.is-category-theorem {
   background-color: #282f2f;
-  border-color: #b03a2e; }
+  border-color: #b03a2e;
+}
 
 html.theme--documenter-dark .admonition.is-category-theorem > .admonition-header {
   background-color: #b03a2e;
@@ -46,9 +48,21 @@ html.theme--documenter-dark .admonition.is-category-theorem > .admonition-header
 /* Homework class */
 html.theme--documenter-dark .admonition.is-category-homework {
   background-color: #282f2f;
-  border-color: #6c3483; }
+  border-color: #6c3483;
+}
 
 html.theme--documenter-dark .admonition.is-category-homework > .admonition-header {
   background-color: #6c3483;
+  color: #fff;
+}
+
+/* Bonus class */
+html.theme--documenter-dark .admonition.is-category-bonus {
+  background-color: #282f2f;
+  border-color: #137886;
+}
+
+html.theme--documenter-dark .admonition.is-category-bonus > .admonition-header {
+  background-color: #137886;;
   color: #fff;
 }

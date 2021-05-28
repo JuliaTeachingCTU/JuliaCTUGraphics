@@ -1,7 +1,8 @@
 /* Exercise*/
 .admonition.is-category-exercise {
   background-color: #9beeb8;
-  border-color: #22c35b; }
+  border-color: #22c35b;
+}
 
 .admonition.is-category-exercise > .admonition-header {
   background-color: #22c35b;
@@ -36,7 +37,8 @@
 /* Theorem*/
 .admonition.is-category-theorem {
   background-color: #f5b7b1;
-  border-color: #e74c3c; }
+  border-color: #e74c3c;
+}
 
 .admonition.is-category-theorem > .admonition-header {
   background-color: #e74c3c;
@@ -46,9 +48,21 @@
 /* Homework class */
 .admonition.is-category-homework {
   background-color: #d7bde2;
-  border-color: #8e44ad; }
+  border-color: #8e44ad;
+}
 
 .admonition.is-category-homework > .admonition-header {
   background-color: #8e44ad;
+  color: #fff;
+}
+
+/* Bonus class */
+.admonition.is-category-bonus {
+  background-color: #99e6f0;
+  border-color: #1db5c9;
+}
+
+.admonition.is-category-bonus > .admonition-header {
+  background-color: #1db5c9;
   color: #fff;
 }
